@@ -270,3 +270,30 @@ section{
 	cursor: pointer;
 }
 
+.last{
+	text-align: center;
+	padding: 17px;
+	background: linear-gradient(to right, #01a2c4, #85a9c1, #d1a7ae, #e96a53, #e96a53, #b8112e);
+
+}
+
+.last p{
+	color: var( --text-color);
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 2px;
+
+}
+
+.product {
+	color: white;
+}
+
+.checkout-total {
+	color: white;
+	font-size: 18px;;
+}
+
+.cart-page {
+	min-height: calc(100vh - 55px);
+}
